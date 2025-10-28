@@ -178,8 +178,8 @@ export function createBotSubStore(botId: string, botName: string) {
         }
         return false;
       },
-      uiBotName: (state) => botName || state.botState?.bot_name || 'freqtrade',
-      botName: (state) => state.botState?.bot_name || 'freqtrade',
+      uiBotName: (state) => botName || state.botState?.bot_name || 'qjmo',
+      botName: (state) => state.botState?.bot_name || 'qjmo',
       botId: () => botId,
       allTrades: (state) => [...state.openTrades, ...state.trades] as Trade[],
       activeLocks: (state) => state.currentLocks?.locks || [],

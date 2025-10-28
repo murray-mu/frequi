@@ -228,9 +228,9 @@ onMounted(() => {
         <span v-if="errorMessageCORS">
           Please also check your bot's CORS configuration:
           <a
-            href="https://www.freqtrade.io/en/latest/rest-api/#cors"
+            href="https://www.freqtrade.iao/en/latest/rest-api/#cors"
             class="text-blue-500 underline"
-            >Freqtrade CORS documentation</a
+            >Qjmo CORS documentation</a
           >
         </span>
       </Message>
